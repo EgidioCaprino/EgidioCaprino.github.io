@@ -6,7 +6,7 @@ import getArticles from '../shared/libs/getArticles';
 
 const experiences = [
   {
-    role: 'Senior Software Developer',
+    role: 'Lead DevOps & Software Developer',
     description: 'at Exprivia from 2019',
     location: 'Vicenza, Italy',
   },
