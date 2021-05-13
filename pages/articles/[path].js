@@ -29,7 +29,7 @@ export default ({ title, content, formattedDate }) => (
   <Layout title={ title }>
     <div className="container">
       <div className="row mb-4 mt-4">
-        <div className="col-6 offset-3">
+        <div className="col-8 offset-2">
           <Link href="/">
             <a>Go back</a>
           </Link>
@@ -38,7 +38,7 @@ export default ({ title, content, formattedDate }) => (
         </div>
       </div>
       <div className="row">
-        <div className="col-6 offset-3">
+        <div className="col-8 offset-2">
           <div style={{ fontSize: '150%' }} dangerouslySetInnerHTML={{ __html: content }} />
         </div>
       </div>
