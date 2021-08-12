@@ -80,6 +80,14 @@ export default ({ articles }) => (
               <a href={mailToUrl}>
                 <Mail /> egidio.caprino@gmail.com
               </a>
+              &nbsp;
+              -
+              &nbsp;
+              <small>
+                <a href={`/${encodeURI('Egidio Caprino egidio.caprino@gmail.com-(0x6D6E85DE911A584A)-public.asc')}`}>
+                  (PGP public key)
+                </a>
+              </small>
             </p>
             <p>
               <MapPin /> Vicenza, Italy
