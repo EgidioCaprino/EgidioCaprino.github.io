@@ -84,7 +84,7 @@ export default ({ articles }) => (
               -
               &nbsp;
               <small>
-                <a href={`/${encodeURI('Egidio Caprino egidio.caprino@gmail.com-(0x6D6E85DE911A584A)-public.asc')}`}>
+                <a href="/pgp">
                   (PGP public key)
                 </a>
               </small>
