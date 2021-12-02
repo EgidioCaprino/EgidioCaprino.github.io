@@ -84,7 +84,7 @@ export default ({ articles }) => (
               -
               &nbsp;
               <small>
-                <a href="/pgp">
+                <a href="/Egidio%20Caprino%20egidio.caprino@gmail.com-(0x6D6E85DE911A584A)-public.asc">
                   (PGP public key)
                 </a>
               </small>
