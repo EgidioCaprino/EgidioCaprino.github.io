@@ -1,5 +1,5 @@
 export default ({ role, description, location }) => (
-  <div className="col mb-4">
+  <div className="col mb-4" key={description}>
     <div className="card border-light">
       <div className="card-header">{ role }</div>
       <div className="card-body">
