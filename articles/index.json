@@ -34,5 +34,11 @@
     "title": "Go: why you don't need GoMock",
     "name": "go-why-you-dont-need-go-mock",
     "date": 1620895980
+  },
+  {
+    "id": 7,
+    "title": "Extend a Docker image on the fly, without defining a new image",
+    "name": "extend-a-docker-image-on-the-fly-without-defining-a-new-image",
+    "date": 1638454534
   }
 ]
