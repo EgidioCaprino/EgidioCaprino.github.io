@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Extend a Docker image on the fly, without defining a new image"
-date:   2022-10-16 11:40:41 +0200
-# categories: jekyll update
+date:   2022-12-02 14:15:34 +0000
 ---
 If you want to use a particular Docker image but you need to apply some changes to it, the correct way to go is to extend that image and build your own on top of it. So basically, you will have to create a new `Dockerfile` with `FROM: alpine` or whatever is your source image, followed by a set of instructions where you apply the customization you need in your image. For instance, you could install your application executable and all the dependencies it needs.
 
