@@ -20,10 +20,7 @@
 
 title: Egidio Caprino
 email: egidiocaprino@duck.com
-description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Just some thoughts and notes
 domain: egidiocaprino.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://egidiocaprino.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,7 +28,7 @@ twitter_username: EgidioCaprino
 github_username:  EgidioCaprino
 
 # Build settings
-theme: hacker
+theme: minima
 plugins:
   - jekyll-feed
 
