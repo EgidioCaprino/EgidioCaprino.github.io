@@ -30,7 +30,7 @@ github_username:  EgidioCaprino
 
 # Build settings
 # theme: minima
-remote_theme: just-the-docs/just-the-docs
+remote_theme: cotes2020/jekyll-theme-chirpy
 plugins:
   - jekyll-feed
 
@@ -54,9 +54,9 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-mermaid:
-  # Version of mermaid library
-  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.7"
+# mermaid:
+#   # Version of mermaid library
+#   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+#   version: "9.1.7"
 
-color_scheme: dark
+# color_scheme: dark
