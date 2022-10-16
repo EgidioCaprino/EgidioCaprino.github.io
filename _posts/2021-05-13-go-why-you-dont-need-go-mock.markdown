@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Go: why you don't need GoMock"
-date:   2022-10-16 08:53:00 +0000
+layout:   post
+title:    "Go: why you don't need GoMock"
+date:     2022-10-16 08:53:00 +0000
 category: blog
 ---
 GoMock is an official command-line tool for generating mocks to use in unit tests. It's very powerful, but it still requires you to apply some changes to your code, and so very often you don't need it. Let's see what GoMock does.

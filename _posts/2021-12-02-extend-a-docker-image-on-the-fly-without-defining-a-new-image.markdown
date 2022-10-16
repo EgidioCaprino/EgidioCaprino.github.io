@@ -1,10 +1,11 @@
 ---
-layout: post
-title:  "Extend a Docker image on the fly, without defining a new image"
-date:   2022-12-02 14:15:34 +0000
+layout:   post
+title:    "Extend a Docker image on the fly, without defining a new image"
+date:     2022-12-02 14:15:34 +0000
 category: blog
 ---
-If you want to use a particular Docker image but you need to apply some changes to it, the correct way to go is to extend that image and build your own on top of it. So basically, you will have to create a new `Dockerfile` with `FROM: alpine` or whatever is your source image, followed by a set of instructions where you apply the customization you need in your image. For instance, you could install your application executable and all the dependencies it needs.
+test
+<!-- If you want to use a particular Docker image but you need to apply some changes to it, the correct way to go is to extend that image and build your own on top of it. So basically, you will have to create a new `Dockerfile` with `FROM: alpine` or whatever is your source image, followed by a set of instructions where you apply the customization you need in your image. For instance, you could install your application executable and all the dependencies it needs.
 
 ## But what if you don't want to create a new Docker image?
 In some situations, it doesn't make much sense to extend an existing image. For instance, for a personal use application (**not a production one**) that you don't want to maintain, where all the customization you need is installing one or two additional packages. In that case, it would be easier to just install the packages and then run the command the image is meant to run by default. But first, let's give a look at the `docker run` command.
@@ -50,4 +51,4 @@ In general, when a container starts, it will run the `CMD` specified in the `Doc
 * select the exact version you want to use, or `latest` otherwise,
 * on the left, search for the latest occurrence of the `CMD` definition.
 
-That's the command you want to append to your `start.sh` script instead of the `sh` one. For instance, for [this Nextcloud image](https://hub.docker.com/layers/nextcloud/library/nextcloud/stable-fpm-alpine/images/sha256-5aded1c55b126768ed6f54c5ff30b4622432198905b47f12c052d87d9cb6131e?context=explore), the command the container will run by default is `php-fpm`.
+That's the command you want to append to your `start.sh` script instead of the `sh` one. For instance, for [this Nextcloud image](https://hub.docker.com/layers/nextcloud/library/nextcloud/stable-fpm-alpine/images/sha256-5aded1c55b126768ed6f54c5ff30b4622432198905b47f12c052d87d9cb6131e?context=explore), the command the container will run by default is `php-fpm`. -->
