@@ -18,10 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: EgidioCaprino.com
-email: egidiocaprino@duck.com
-description: >-
-  I'm Egidio Caprino, a software developer and a DevOps engineer and this is a mix between a blog and a collection of personal notes
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 domain: egidiocaprino.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://egidiocaprino.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -29,8 +31,7 @@ twitter_username: EgidioCaprino
 github_username:  EgidioCaprino
 
 # Build settings
-theme: hacker
-# remote_theme: cotes2020/jekyll-theme-chirpy
+theme: minima
 plugins:
   - jekyll-feed
 
@@ -53,10 +54,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# mermaid:
-#   # Version of mermaid library
-#   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-#   version: "9.1.7"
-
-# color_scheme: dark
