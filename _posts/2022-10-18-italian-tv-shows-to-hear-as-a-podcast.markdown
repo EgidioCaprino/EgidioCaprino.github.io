@@ -28,6 +28,14 @@ title:  "List of some Italian TV shows to hear as a podcast"
 - [Otto e mezzo](https://www.la7.it/otto-e-mezzo)
 - [Una giornata particolare](https://www.la7.it/una-giornata-particolare)
 
+<h3 class="day-4">Thursday</h3>
+- [Coffee break](https://www.la7.it/coffee-break)
+- [Il cavallo e la torre](https://www.raiplay.it/programmi/ilcavalloelatorre)
+- [L'aria che tira](https://www.la7.it/laria-che-tira)
+- [Omnibus](https://www.la7.it/omnibus)
+- [Otto e mezzo](https://www.la7.it/otto-e-mezzo)
+- [Piazzapulita](https://www.la7.it/piazzapulita)
+
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     const today = new Date().getDay();
