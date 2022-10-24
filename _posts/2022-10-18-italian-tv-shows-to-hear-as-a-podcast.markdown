@@ -37,12 +37,12 @@ title:  "List of some Italian TV shows to hear as a podcast"
 - [Piazza Pulita](https://www.la7.it/piazzapulita)
 
 <h3 class="day-5">Friday</h3>
+- [Accordi e Disaccordi](https://www.discoveryplus.com/it/show/accordi-e-disaccordi)
 - [Coffee break](https://www.la7.it/coffee-break)
 - [Il cavallo e la torre](https://www.raiplay.it/programmi/ilcavalloelatorre)
 - [L'aria che tira](https://www.la7.it/laria-che-tira)
 - [Omnibus](https://www.la7.it/omnibus)
 - [Otto e mezzo](https://www.la7.it/otto-e-mezzo)
-- [Accordi e Disaccordi](https://www.discoveryplus.com/it/show/accordi-e-disaccordi)
 
 <h3 class="day-6">Saturday</h3>
 - [In Onda](https://www.la7.it/in-onda)
