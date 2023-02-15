@@ -9,13 +9,3 @@ exports[`renders homepage unchanged 1`] = `
   </pre>
 </div>
 `;
-
-exports[`renders homepage unchanged 2`] = `
-<div>
-  <pre>
-    <code
-      class="md:text-3xl javascript hljs"
-    />
-  </pre>
-</div>
-`;
