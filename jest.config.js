@@ -22,6 +22,9 @@ const customJestConfig = {
       lines: minCoveragePercentage,
       statements: minCoveragePercentage,
     },
+    'pages/index.tsx': {
+      functions: 50, // Head component is not rendered in test runtime
+    },
   },
   moduleNameMapper: {
     'break-styled-lines': require.resolve('break-styled-lines'),
