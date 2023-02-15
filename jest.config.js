@@ -23,6 +23,9 @@ const customJestConfig = {
       statements: minCoveragePercentage,
     },
   },
+  moduleNameMapper: {
+    'break-styled-lines': require.resolve('break-styled-lines'),
+  },
 };
 
 module.exports = createJestConfig(customJestConfig);
