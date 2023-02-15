@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "npx eslint --ext .js,.jsx,.ts,.tsx pages __tests__",
     "test": "jest"
@@ -25,6 +25,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
+    "@types/react-highlight": "^0.12.5",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
